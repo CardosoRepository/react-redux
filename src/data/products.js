@@ -7,7 +7,7 @@ const products = [
     { id: 6, name: 'Caderno', price: 19.99},
     { id: 7, name: 'Borracha', price: 49.99},
     { id: 8, name: 'Impressora', price: 2.99},
-    { id: 9, name: 'Monitor 27\"', price: 5.99},
+    { id: 9, name: 'Monitor 27"', price: 5.99},
     { id: 10, name: 'Cadeira', price: 700.99},
 ]
 export default products
