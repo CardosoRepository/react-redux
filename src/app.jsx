@@ -11,16 +11,16 @@ export default (_) => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
-            <Card titulo="#01 - Primeiro Exercício">
+            <Card title="#01 - Primeiro Exercício" color="#588C73">
                 <Primeiro></Primeiro>
             </Card>
-            <Card titulo="#02 - Com Parâmetro">
-                <ComParametro titulo="Situação do aluno" aluno="Pedro" nota={9.3} />
+            <Card title="#02 - Com Parâmetro" color="#E8B71A">
+                <ComParametro title="Situação do aluno" student="Pedro" grade={9.3} />
             </Card>
-            <Card titulo="#03 - Fragmento">
+            <Card title="#03 - Fragmento" color="#E94C6F">
                 <Fragmento />
             </Card>
-            <Card titulo="#04 - Desafio aleatório">
+            <Card title="#04 - Desafio aleatório" color="#FA6900">
                 <Aleatorio min={1} max={60}></Aleatorio>
             </Card>
         </div>
