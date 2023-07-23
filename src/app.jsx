@@ -8,6 +8,8 @@ import Aleatorio from "./components/basics/Aleatorio";
 import Card from "./components/layout/Card";
 import Family from "./components/basics/Family";
 import FamilyMember from "./components/basics/FamilyMember";
+import StudentsList from "./components/repetition/StudentsList";
+import ProductsTable from "./components/repetition/ProductsTable";
 
 export default (_) => (
     <div className="App">
@@ -35,6 +37,12 @@ export default (_) => (
                     <FamilyMember name="Ana"  />
                     <FamilyMember name="Gustavo" />
                 </Family>
+            </Card>
+            <Card title="#06 - Repetição" color="#FF432E">
+                <StudentsList />
+            </Card>
+            <Card title="#07 - Desafio Repetição" color="#3A9AD9">
+                <ProductsTable />
             </Card>
         </div>
     </div>
