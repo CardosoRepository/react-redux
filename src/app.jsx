@@ -12,6 +12,9 @@ import StudentsList from "./components/repetition/StudentsList";
 import ProductsTable from "./components/repetition/ProductsTable";
 import EvenOrOdd from "./components/conditional/EvenOrOdd";
 import UserInfo from "./components/conditional/UserInfo";
+import DirectFather from "./components/communication/DirectFather";
+import IndirectFather from "./components/communication/IndirectFather";
+import Input from "./components/formulario/Input";
 
 export default (_) => (
     <div className="App">
@@ -49,7 +52,15 @@ export default (_) => (
             <Card title="#08 - Renderização condicional" color="#982395">
                 <EvenOrOdd number={20}/>
                 <UserInfo user={{ name: 'Fernando' }} />
-                <UserInfo user={{ email: 'fer@nando.com' }} />
+            </Card>
+            <Card title="#09 - Comunicação direta" color="#59323C">
+                <DirectFather />
+            </Card>
+            <Card title="#10 - Comunicação indireta" color="#8BAD39">
+                <IndirectFather />
+            </Card>
+            <Card title="#11 - Componente Controlado (Input)" color="#E45F56">
+                <Input />
             </Card>
         </div>
     </div>
