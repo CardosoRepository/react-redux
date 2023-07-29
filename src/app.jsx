@@ -14,7 +14,8 @@ import EvenOrOdd from "./components/conditional/EvenOrOdd";
 import UserInfo from "./components/conditional/UserInfo";
 import DirectFather from "./components/communication/DirectFather";
 import IndirectFather from "./components/communication/IndirectFather";
-import Input from "./components/formulario/Input";
+import Input from "./components/form/Input";
+import Counter from "./components/counter/Counter";
 
 export default (_) => (
     <div className="App">
@@ -61,6 +62,9 @@ export default (_) => (
             </Card>
             <Card title="#11 - Componente Controlado (Input)" color="#E45F56">
                 <Input />
+            </Card>
+            <Card title="#12 - Contador" color="#424242">
+                <Counter initialNumber={10}/>
             </Card>
         </div>
     </div>
