@@ -16,6 +16,7 @@ import DirectFather from "./components/communication/DirectFather";
 import IndirectFather from "./components/communication/IndirectFather";
 import Input from "./components/form/Input";
 import Counter from "./components/counter/Counter";
+import Mega from "./components/mega/Mega";
 
 export default (_) => (
     <div className="App">
@@ -65,6 +66,9 @@ export default (_) => (
             </Card>
             <Card title="#12 - Contador" color="#424242">
                 <Counter initialNumber={10}/>
+            </Card>
+            <Card title="#13 - Mega" color="#B9006E">
+                <Mega />
             </Card>
         </div>
     </div>
